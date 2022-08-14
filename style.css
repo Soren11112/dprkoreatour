@@ -1,0 +1,40 @@
+body {
+	background-color: lightblue;
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Flag_of_North_Korea.svg/255px-Flag_of_North_Korea.svg.png);
+	background-blend-mode: soft-light;
+	overflow-x: hidden;
+	max-width: 100%;
+	margin: 0;
+}
+
+h1, h2, ul {
+	text-align: center;
+	color: gold;
+	text-shadow: 3px 3px black;
+}
+a {
+	color: yellow;
+}
+ul {
+	font-size: 200%;
+}
+
+h2 {
+	padding-left: 30px;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+#footer {
+	flex-wrap: nowrap;
+	bottom: 0;
+	display: flex;
+	padding: 0;
+	margin: 0;
+	left: 0;
+}
